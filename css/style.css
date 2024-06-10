@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#e5d931;
+}
+
+h1 {
+    color:#e5d931;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.contain {
+    max-width:1200px;
+    padding:20px;
+    margin:auto;
+    margin-top:50px;
+    border-radius:20px;
+    background: linear-gradient(white, #e5d931 100%) 0% 0% no-repeat padding-box;
+}
+
+header p:last-child{
+    text-align:center;
+}
+
+.contain .profiles {
+    width:100%;
+    margin-top:50px;
+}
+
+.card {
+    float:left;
+    margin-bottom:50px;
+    margin-right:10px;
+    border-radius:15px;
+    margin-left:10px;
+    width: calc(100% / 3 - 20px);
+    background: linear-gradient(black, #251c1c 90%) 0% 0% no-repeat padding-box;
+}
+
+.card img {
+    border-top-left-radius:15px;
+    float:left;
+    width:35%;
+    border-bottom-left-radius:15px;
+    
+}
+
+.card p, .card strong{
+    color:white;
+}
+
+.card p, .card a {
+    display:block;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:40%;
+}
+
+.email{
+    color:#0026ff;
+    text-decoration:none;
+}
